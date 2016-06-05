@@ -20,32 +20,35 @@
     background-color: green; // remove
 }
 @mixin grid-item($width, $important: false) {
+    vertical-align: top;
      @if($important){
         width: $width * 100% !important;
-        display: inline-flex !important;
+        display: inline-table !important;
     }
     @else {
         width: $width * 100%;
-        display: inline-flex;
+        display: inline-table;
     }
     &::before {
-        margin-left: $grid-small-gutter;
+        display: table-cell;
+        width: $grid-small-gutter;
         @media(min-width: $grid-small) and (max-width: $grid-medium){
-            margin-left: $grid-medium-gutter;
+            width: $grid-medium-gutter;
         }
         @media(min-width: $grid-medium){
-            margin-left: $grid-large-gutter;
+            width: $grid-large-gutter;
         }
         background-color: black;
         content: ' ';
     }
     &::after {
-        margin-right: $grid-small-gutter;
+        display: table-cell;
+        width: $grid-small-gutter;
         @media(min-width: $grid-small) and (max-width: $grid-medium){
-            margin-right: $grid-medium-gutter;
+            width: $grid-medium-gutter;
         }
         @media(min-width: $grid-medium){
-            margin-right: $grid-large-gutter;
+            width: $grid-large-gutter;
         }
         background-color: black;
         content: ' ';

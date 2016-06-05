@@ -31,170 +31,182 @@ body {
   width: 100%;
   background-color: blue; }
   .grid-sm-1 {
+    vertical-align: top;
     width: 8.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-1::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-1::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-1::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-1::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-1::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-1::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-1 {
+        vertical-align: top;
         width: 8.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-1::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-1::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-1::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-1::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-1::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-1::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-1 {
+    vertical-align: top;
     width: 8.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-1::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-1::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-1::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-1::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-1::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-1::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-1 {
+        vertical-align: top;
         width: 8.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-1::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-1::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-1::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-1::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-1::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-1::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-1 {
         width: 100%; } }
   .grid-lg-1 {
+    vertical-align: top;
     width: 8.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-1::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-1::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-1::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-1::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-1::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-1::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-1 {
+        vertical-align: top;
         width: 8.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-1::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-1::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-1::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-1::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-1::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-1::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-1 {
         width: 100%; } }
@@ -207,170 +219,182 @@ body {
     .grid-lg-offset-1 {
       margin-left: 8.3333333333% !important; } }
   .grid-sm-2 {
+    vertical-align: top;
     width: 16.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-2::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-2::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-2::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-2::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-2::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-2::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-2 {
+        vertical-align: top;
         width: 16.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-2::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-2::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-2::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-2::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-2::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-2::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-2 {
+    vertical-align: top;
     width: 16.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-2::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-2::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-2::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-2::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-2::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-2::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-2 {
+        vertical-align: top;
         width: 16.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-2::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-2::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-2::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-2::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-2::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-2::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-2 {
         width: 100%; } }
   .grid-lg-2 {
+    vertical-align: top;
     width: 16.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-2::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-2::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-2::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-2::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-2::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-2::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-2 {
+        vertical-align: top;
         width: 16.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-2::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-2::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-2::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-2::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-2::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-2::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-2 {
         width: 100%; } }
@@ -383,170 +407,182 @@ body {
     .grid-lg-offset-2 {
       margin-left: 16.6666666667% !important; } }
   .grid-sm-3 {
+    vertical-align: top;
     width: 25%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-3::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-3::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-3::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-3::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-3::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-3::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-3 {
+        vertical-align: top;
         width: 25% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-3::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-3::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-3::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-3::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-3::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-3::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-3 {
+    vertical-align: top;
     width: 25%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-3::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-3::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-3::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-3::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-3::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-3::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-3 {
+        vertical-align: top;
         width: 25% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-3::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-3::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-3::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-3::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-3::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-3::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-3 {
         width: 100%; } }
   .grid-lg-3 {
+    vertical-align: top;
     width: 25%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-3::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-3::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-3::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-3::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-3::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-3::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-3 {
+        vertical-align: top;
         width: 25% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-3::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-3::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-3::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-3::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-3::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-3::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-3 {
         width: 100%; } }
@@ -559,170 +595,182 @@ body {
     .grid-lg-offset-3 {
       margin-left: 25% !important; } }
   .grid-sm-4 {
+    vertical-align: top;
     width: 33.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-4::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-4::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-4::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-4::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-4::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-4::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-4 {
+        vertical-align: top;
         width: 33.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-4::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-4::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-4::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-4::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-4::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-4::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-4 {
+    vertical-align: top;
     width: 33.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-4::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-4::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-4::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-4::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-4::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-4::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-4 {
+        vertical-align: top;
         width: 33.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-4::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-4::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-4::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-4::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-4::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-4::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-4 {
         width: 100%; } }
   .grid-lg-4 {
+    vertical-align: top;
     width: 33.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-4::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-4::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-4::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-4::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-4::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-4::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-4 {
+        vertical-align: top;
         width: 33.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-4::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-4::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-4::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-4::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-4::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-4::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-4 {
         width: 100%; } }
@@ -735,170 +783,182 @@ body {
     .grid-lg-offset-4 {
       margin-left: 33.3333333333% !important; } }
   .grid-sm-5 {
+    vertical-align: top;
     width: 41.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-5::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-5::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-5::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-5::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-5::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-5::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-5 {
+        vertical-align: top;
         width: 41.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-5::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-5::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-5::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-5::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-5::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-5::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-5 {
+    vertical-align: top;
     width: 41.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-5::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-5::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-5::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-5::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-5::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-5::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-5 {
+        vertical-align: top;
         width: 41.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-5::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-5::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-5::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-5::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-5::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-5::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-5 {
         width: 100%; } }
   .grid-lg-5 {
+    vertical-align: top;
     width: 41.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-5::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-5::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-5::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-5::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-5::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-5::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-5 {
+        vertical-align: top;
         width: 41.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-5::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-5::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-5::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-5::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-5::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-5::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-5 {
         width: 100%; } }
@@ -911,170 +971,182 @@ body {
     .grid-lg-offset-5 {
       margin-left: 41.6666666667% !important; } }
   .grid-sm-6 {
+    vertical-align: top;
     width: 50%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-6::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-6::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-6::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-6::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-6::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-6::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-6 {
+        vertical-align: top;
         width: 50% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-6::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-6::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-6::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-6::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-6::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-6::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-6 {
+    vertical-align: top;
     width: 50%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-6::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-6::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-6::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-6::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-6::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-6::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-6 {
+        vertical-align: top;
         width: 50% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-6::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-6::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-6::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-6::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-6::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-6::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-6 {
         width: 100%; } }
   .grid-lg-6 {
+    vertical-align: top;
     width: 50%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-6::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-6::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-6::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-6::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-6::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-6::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-6 {
+        vertical-align: top;
         width: 50% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-6::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-6::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-6::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-6::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-6::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-6::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-6 {
         width: 100%; } }
@@ -1087,170 +1159,182 @@ body {
     .grid-lg-offset-6 {
       margin-left: 50% !important; } }
   .grid-sm-7 {
+    vertical-align: top;
     width: 58.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-7::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-7::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-7::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-7::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-7::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-7::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-7 {
+        vertical-align: top;
         width: 58.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-7::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-7::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-7::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-7::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-7::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-7::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-7 {
+    vertical-align: top;
     width: 58.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-7::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-7::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-7::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-7::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-7::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-7::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-7 {
+        vertical-align: top;
         width: 58.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-7::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-7::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-7::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-7::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-7::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-7::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-7 {
         width: 100%; } }
   .grid-lg-7 {
+    vertical-align: top;
     width: 58.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-7::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-7::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-7::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-7::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-7::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-7::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-7 {
+        vertical-align: top;
         width: 58.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-7::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-7::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-7::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-7::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-7::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-7::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-7 {
         width: 100%; } }
@@ -1263,170 +1347,182 @@ body {
     .grid-lg-offset-7 {
       margin-left: 58.3333333333% !important; } }
   .grid-sm-8 {
+    vertical-align: top;
     width: 66.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-8::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-8::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-8::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-8::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-8::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-8::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-8 {
+        vertical-align: top;
         width: 66.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-8::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-8::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-8::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-8::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-8::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-8::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-8 {
+    vertical-align: top;
     width: 66.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-8::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-8::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-8::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-8::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-8::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-8::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-8 {
+        vertical-align: top;
         width: 66.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-8::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-8::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-8::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-8::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-8::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-8::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-8 {
         width: 100%; } }
   .grid-lg-8 {
+    vertical-align: top;
     width: 66.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-8::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-8::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-8::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-8::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-8::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-8::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-8 {
+        vertical-align: top;
         width: 66.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-8::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-8::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-8::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-8::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-8::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-8::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-8 {
         width: 100%; } }
@@ -1439,170 +1535,182 @@ body {
     .grid-lg-offset-8 {
       margin-left: 66.6666666667% !important; } }
   .grid-sm-9 {
+    vertical-align: top;
     width: 75%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-9::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-9::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-9::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-9::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-9::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-9::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-9 {
+        vertical-align: top;
         width: 75% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-9::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-9::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-9::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-9::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-9::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-9::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-9 {
+    vertical-align: top;
     width: 75%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-9::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-9::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-9::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-9::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-9::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-9::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-9 {
+        vertical-align: top;
         width: 75% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-9::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-9::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-9::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-9::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-9::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-9::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-9 {
         width: 100%; } }
   .grid-lg-9 {
+    vertical-align: top;
     width: 75%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-9::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-9::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-9::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-9::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-9::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-9::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-9 {
+        vertical-align: top;
         width: 75% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-9::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-9::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-9::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-9::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-9::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-9::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-9 {
         width: 100%; } }
@@ -1615,170 +1723,182 @@ body {
     .grid-lg-offset-9 {
       margin-left: 75% !important; } }
   .grid-sm-10 {
+    vertical-align: top;
     width: 83.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-10::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-10::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-10::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-10::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-10::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-10::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-10 {
+        vertical-align: top;
         width: 83.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-10::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-10::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-10::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-10::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-10::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-10::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-10 {
+    vertical-align: top;
     width: 83.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-10::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-10::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-10::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-10::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-10::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-10::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-10 {
+        vertical-align: top;
         width: 83.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-10::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-10::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-10::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-10::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-10::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-10::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-10 {
         width: 100%; } }
   .grid-lg-10 {
+    vertical-align: top;
     width: 83.3333333333%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-10::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-10::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-10::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-10::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-10::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-10::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-10 {
+        vertical-align: top;
         width: 83.3333333333% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-10::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-10::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-10::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-10::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-10::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-10::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-10 {
         width: 100%; } }
@@ -1791,170 +1911,182 @@ body {
     .grid-lg-offset-10 {
       margin-left: 83.3333333333% !important; } }
   .grid-sm-11 {
+    vertical-align: top;
     width: 91.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-11::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-11::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-11::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-11::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-11::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-11::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-11 {
+        vertical-align: top;
         width: 91.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-11::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-11::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-11::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-11::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-11::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-11::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-11 {
+    vertical-align: top;
     width: 91.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-11::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-11::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-11::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-11::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-11::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-11::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-11 {
+        vertical-align: top;
         width: 91.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-11::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-11::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-11::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-11::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-11::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-11::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-11 {
         width: 100%; } }
   .grid-lg-11 {
+    vertical-align: top;
     width: 91.6666666667%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-11::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-11::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-11::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-11::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-11::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-11::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-11 {
+        vertical-align: top;
         width: 91.6666666667% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-11::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-11::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-11::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-11::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-11::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-11::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-11 {
         width: 100%; } }
@@ -1967,170 +2099,182 @@ body {
     .grid-lg-offset-11 {
       margin-left: 91.6666666667% !important; } }
   .grid-sm-12 {
+    vertical-align: top;
     width: 100%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-12::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-12::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-12::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-sm-12::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-12::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-12::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-12 {
+        vertical-align: top;
         width: 100% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-12::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-12::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-12::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-12::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-12::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-12::after {
-        margin-right: 15px; } }
+        width: 15px; } }
   .grid-md-12 {
+    vertical-align: top;
     width: 100%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-12::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-12::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-12::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-md-12::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-12::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-md-12::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-12 {
+        vertical-align: top;
         width: 100% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-12::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-12::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-12::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-12::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-12::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-12::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 768px) {
       .grid-md-12 {
         width: 100%; } }
   .grid-lg-12 {
+    vertical-align: top;
     width: 100%;
-    display: -webkit-inline-box;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-12::before {
-      margin-left: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-12::before {
-          margin-left: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-12::before {
-          margin-left: 15px; } }
+          width: 15px; } }
     .grid-lg-12::after {
-      margin-right: 15px;
+      display: table-cell;
+      width: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-12::after {
-          margin-right: 15px; } }
+          width: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-12::after {
-          margin-right: 15px; } }
+          width: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-12 {
+        vertical-align: top;
         width: 100% !important;
-        display: -webkit-inline-box !important;
-        display: inline-flex !important;
+        display: inline-table !important;
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-12::before {
-          margin-left: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-12::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-12::before {
-        margin-left: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-12::after {
-          margin-right: 15px;
+          display: table-cell;
+          width: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-12::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-12::after {
-        margin-right: 15px; } }
+        width: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-12 {
         width: 100%; } }
