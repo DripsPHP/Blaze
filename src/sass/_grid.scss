@@ -22,8 +22,7 @@ body {
         padding: 0 $grid-large-margin;
     }
 
-    @media(min-width: $grid-large)
-    {
+    @media(min-width: $grid-large){
         padding: 0 $grid-large-margin;
         max-width: $grid-large;
     }
@@ -31,9 +30,15 @@ body {
     background-color: green; // remove
 }
 
-@mixin grid-item($width) {
-    width: $width * 100%;
-    display: inline-block;
+@mixin grid-item($width, $important: false) {
+    @if($important){
+        width: $width * 100% !important;
+        display: inline-block !important;
+    } @else {
+        width: $width * 100%;
+        display: inline-block;
+    }
+
     margin: 0 -4px 0 0;
 
     background-color: orange; // remove
@@ -45,12 +50,27 @@ body {
     @for $i from 1 through $grid-size {
         &-sm-#{$i} {
             @include grid-item($i/$grid-size);
+            @media(max-width: $grid-small){
+                @include grid-item($i/$grid-size, true);
+            }
         }
         &-md-#{$i} {
             @include grid-item($i/$grid-size);
+            @media(min-width: $grid-small) and (max-width: $grid-medium){
+                @include grid-item($i/$grid-size, true);
+            }
+            @media(max-width: $grid-small){
+                display: block;
+            }
         }
         &-lg-#{$i} {
             @include grid-item($i/$grid-size);
+            @media(min-width: $grid-medium){
+                @include grid-item($i/$grid-size, true);
+            }
+            @media(max-width: $grid-medium){
+                display: block;
+            }
         }
     }
 

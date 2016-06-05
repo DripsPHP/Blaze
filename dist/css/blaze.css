@@ -37,178 +37,466 @@ body {
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-1 {
+        width: 8.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-1 {
     width: 8.3333333333%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-1 {
+        width: 8.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-1 {
+        display: block; } }
   .grid-lg-1 {
     width: 8.3333333333%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-1 {
+        width: 8.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-1 {
+        display: block; } }
   .grid-sm-2 {
     width: 16.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-2 {
+        width: 16.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-2 {
     width: 16.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-2 {
+        width: 16.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-2 {
+        display: block; } }
   .grid-lg-2 {
     width: 16.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-2 {
+        width: 16.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-2 {
+        display: block; } }
   .grid-sm-3 {
     width: 25%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-3 {
+        width: 25% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-3 {
     width: 25%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-3 {
+        width: 25% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-3 {
+        display: block; } }
   .grid-lg-3 {
     width: 25%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-3 {
+        width: 25% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-3 {
+        display: block; } }
   .grid-sm-4 {
     width: 33.3333333333%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-4 {
+        width: 33.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-4 {
     width: 33.3333333333%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-4 {
+        width: 33.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-4 {
+        display: block; } }
   .grid-lg-4 {
     width: 33.3333333333%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-4 {
+        width: 33.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-4 {
+        display: block; } }
   .grid-sm-5 {
     width: 41.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-5 {
+        width: 41.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-5 {
     width: 41.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-5 {
+        width: 41.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-5 {
+        display: block; } }
   .grid-lg-5 {
     width: 41.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-5 {
+        width: 41.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-5 {
+        display: block; } }
   .grid-sm-6 {
     width: 50%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-6 {
+        width: 50% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-6 {
     width: 50%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-6 {
+        width: 50% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-6 {
+        display: block; } }
   .grid-lg-6 {
     width: 50%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-6 {
+        width: 50% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-6 {
+        display: block; } }
   .grid-sm-7 {
     width: 58.3333333333%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-7 {
+        width: 58.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-7 {
     width: 58.3333333333%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-7 {
+        width: 58.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-7 {
+        display: block; } }
   .grid-lg-7 {
     width: 58.3333333333%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-7 {
+        width: 58.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-7 {
+        display: block; } }
   .grid-sm-8 {
     width: 66.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-8 {
+        width: 66.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-8 {
     width: 66.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-8 {
+        width: 66.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-8 {
+        display: block; } }
   .grid-lg-8 {
     width: 66.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-8 {
+        width: 66.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-8 {
+        display: block; } }
   .grid-sm-9 {
     width: 75%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-9 {
+        width: 75% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-9 {
     width: 75%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-9 {
+        width: 75% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-9 {
+        display: block; } }
   .grid-lg-9 {
     width: 75%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-9 {
+        width: 75% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-9 {
+        display: block; } }
   .grid-sm-10 {
     width: 83.3333333333%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-10 {
+        width: 83.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-10 {
     width: 83.3333333333%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-10 {
+        width: 83.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-10 {
+        display: block; } }
   .grid-lg-10 {
     width: 83.3333333333%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-10 {
+        width: 83.3333333333% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-10 {
+        display: block; } }
   .grid-sm-11 {
     width: 91.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-11 {
+        width: 91.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-11 {
     width: 91.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-11 {
+        width: 91.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-11 {
+        display: block; } }
   .grid-lg-11 {
     width: 91.6666666667%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-11 {
+        width: 91.6666666667% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-11 {
+        display: block; } }
   .grid-sm-12 {
     width: 100%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (max-width: 768px) {
+      .grid-sm-12 {
+        width: 100% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
   .grid-md-12 {
     width: 100%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .grid-md-12 {
+        width: 100% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 768px) {
+      .grid-md-12 {
+        display: block; } }
   .grid-lg-12 {
     width: 100%;
     display: inline-block;
     margin: 0 -4px 0 0;
     background-color: orange; }
+    @media (min-width: 992px) {
+      .grid-lg-12 {
+        width: 100% !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 0;
+        background-color: orange; } }
+    @media (max-width: 992px) {
+      .grid-lg-12 {
+        display: block; } }
