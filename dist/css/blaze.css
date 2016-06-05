@@ -500,3 +500,39 @@ body {
     @media (max-width: 992px) {
       .grid-lg-12 {
         display: block; } }
+
+.hidden-sm {
+  display: none; }
+  @media (min-width: 768px) {
+    .hidden-sm {
+      display: block; } }
+
+.hidden-md {
+  display: none; }
+  @media (min-width: 992px) {
+    .hidden-md {
+      display: block; } }
+
+.hidden-lg {
+  display: none; }
+  @media (min-width: 1200px) {
+    .hidden-lg {
+      display: block; } }
+
+.visible-sm {
+  display: block; }
+  @media (min-width: 768px) {
+    .visible-sm {
+      display: none; } }
+
+.visible-md {
+  display: block; }
+  @media (min-width: 992px) {
+    .visible-md {
+      display: none; } }
+
+.visible-lg {
+  display: block; }
+  @media (min-width: 1200px) {
+    .visible-lg {
+      display: none; } }

@@ -1,0 +1,41 @@
+.hidden{
+    &-sm{
+        display: none;
+        @media(min-width: $grid-small){
+            display: block;
+        }
+    }
+    &-md{
+        display: none;
+        @media(min-width: $grid-medium){
+            display: block;
+        }
+    }
+    &-lg{
+        display: none;
+        @media(min-width: $grid-large){
+            display: block;
+        }
+    }
+}
+
+.visible{
+    &-sm{
+        display: block;
+        @media(min-width: $grid-small){
+            display: none;
+        }
+    }
+    &-md{
+        display: block;
+        @media(min-width: $grid-medium){
+            display: none;
+        }
+    }
+    &-lg{
+        display: block;
+        @media(min-width: $grid-large){
+            display: none;
+        }
+    }
+}
