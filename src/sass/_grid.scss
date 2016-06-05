@@ -1,78 +1,79 @@
-body {
-
-}
-
 .container-fluid {
     width: 100%;
-
     background-color: red; // remove
 }
-
 .container {
     margin: auto;
     max-width: 100%;
     padding: 0 $grid-small-margin;
-
-    @media(min-width: $grid-small) and (max-width: $grid-medium){
+    @media(min-width: $grid-small) and (max-width: $grid-medium) {
         padding: 0 $grid-medium-margin;
     }
-
-    @media(min-width: $grid-medium) and (max-width: $grid-large){
+    @media(min-width: $grid-medium) and (max-width: $grid-large) {
         max-width: $grid-large - $grid-large-margin * 2;
         padding: 0 $grid-large-margin;
     }
-
-    @media(min-width: $grid-large){
+    @media(min-width: $grid-large) {
         padding: 0 $grid-large-margin;
         max-width: $grid-large;
     }
-
     background-color: green; // remove
 }
-
 @mixin grid-item($width, $important: false) {
-    @if($important){
+     @if($important){
         width: $width * 100% !important;
         display: inline-block !important;
-    } @else {
+    }
+    @else {
         width: $width * 100%;
         display: inline-block;
     }
-
     margin: 0 -4px 0 0;
-
     background-color: orange; // remove
 }
-
+@mixin grid-item-offset($offset) {
+    margin-left: $offset * 100% !important;
+}
 .grid {
     width: 100%;
-
     @for $i from 1 through $grid-size {
         &-sm-#{$i} {
             @include grid-item($i/$grid-size);
-            @media(max-width: $grid-small){
-                @include grid-item($i/$grid-size, true);
+            @media(max-width: $grid-small) {
+                 @include grid-item($i/$grid-size, true);
             }
         }
         &-md-#{$i} {
             @include grid-item($i/$grid-size);
-            @media(min-width: $grid-small) and (max-width: $grid-medium){
-                @include grid-item($i/$grid-size, true);
+            @media(min-width: $grid-small) and (max-width: $grid-medium) {
+                 @include grid-item($i/$grid-size, true);
             }
-            @media(max-width: $grid-small){
+            @media(max-width: $grid-small) {
                 display: block;
             }
         }
         &-lg-#{$i} {
             @include grid-item($i/$grid-size);
-            @media(min-width: $grid-medium){
-                @include grid-item($i/$grid-size, true);
+            @media(min-width: $grid-medium) {
+                 @include grid-item($i/$grid-size, true);
             }
-            @media(max-width: $grid-medium){
+            @media(max-width: $grid-medium) {
                 display: block;
             }
         }
+        &-sm-offset-#{$i} {
+            @include grid-item-offset($i/$grid-size);
+        }
+        &-md-offset-#{$i} {
+            @media(min-width: $grid-small) {
+                @include grid-item-offset($i/$grid-size);
+            }
+        }
+        &-lg-offset-#{$i} {
+            @media(min-width: $grid-medium) {
+                @include grid-item-offset($i/$grid-size);
+            }
+        }
     }
-
     background-color: blue; // remove
 }
