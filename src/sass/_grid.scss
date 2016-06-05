@@ -50,6 +50,7 @@
             }
             @media(max-width: $grid-small) {
                 display: block;
+                width: 100%;
             }
         }
         &-lg-#{$i} {
@@ -59,6 +60,7 @@
             }
             @media(max-width: $grid-medium) {
                 display: block;
+                width: 100%;
             }
         }
         &-sm-offset-#{$i} {
