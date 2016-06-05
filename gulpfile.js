@@ -4,6 +4,6 @@ elixir.config.sourcemaps = false;
 elixir.config.assetsPath = 'src';
 
 elixir(function(mix) {
-    mix.sass('app.scss', 'dist/css');
-    mix.browserify('app.js', 'dist/js');
+    mix.sass('blaze.scss', 'dist/css');
+    mix.browserify('blaze.js', 'dist/js');
 });
