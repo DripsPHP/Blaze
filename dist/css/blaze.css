@@ -39,25 +39,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-1::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-1::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-1::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-1::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-1::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-1::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-1 {
         width: 8.3333333333% !important;
@@ -66,26 +66,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-1::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-1::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-1::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-1::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-1::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-1::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-1 {
     width: 8.3333333333%;
     display: -webkit-inline-box;
@@ -93,25 +93,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-1::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-1::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-1::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-1::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-1::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-1::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-1 {
         width: 8.3333333333% !important;
@@ -120,26 +120,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-1::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-1::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-1::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-1::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-1::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-1::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-1 {
         width: 100%; } }
@@ -150,25 +150,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-1::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-1::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-1::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-1::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-1::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-1::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-1 {
         width: 8.3333333333% !important;
@@ -177,26 +177,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-1::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-1::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-1::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-1::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-1::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-1::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-1 {
         width: 100%; } }
@@ -215,25 +215,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-2::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-2::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-2::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-2::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-2::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-2::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-2 {
         width: 16.6666666667% !important;
@@ -242,26 +242,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-2::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-2::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-2::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-2::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-2::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-2::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-2 {
     width: 16.6666666667%;
     display: -webkit-inline-box;
@@ -269,25 +269,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-2::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-2::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-2::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-2::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-2::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-2::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-2 {
         width: 16.6666666667% !important;
@@ -296,26 +296,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-2::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-2::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-2::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-2::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-2::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-2::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-2 {
         width: 100%; } }
@@ -326,25 +326,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-2::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-2::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-2::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-2::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-2::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-2::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-2 {
         width: 16.6666666667% !important;
@@ -353,26 +353,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-2::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-2::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-2::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-2::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-2::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-2::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-2 {
         width: 100%; } }
@@ -391,25 +391,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-3::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-3::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-3::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-3::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-3::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-3::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-3 {
         width: 25% !important;
@@ -418,26 +418,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-3::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-3::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-3::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-3::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-3::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-3::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-3 {
     width: 25%;
     display: -webkit-inline-box;
@@ -445,25 +445,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-3::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-3::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-3::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-3::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-3::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-3::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-3 {
         width: 25% !important;
@@ -472,26 +472,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-3::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-3::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-3::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-3::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-3::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-3::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-3 {
         width: 100%; } }
@@ -502,25 +502,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-3::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-3::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-3::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-3::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-3::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-3::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-3 {
         width: 25% !important;
@@ -529,26 +529,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-3::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-3::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-3::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-3::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-3::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-3::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-3 {
         width: 100%; } }
@@ -567,25 +567,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-4::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-4::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-4::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-4::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-4::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-4::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-4 {
         width: 33.3333333333% !important;
@@ -594,26 +594,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-4::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-4::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-4::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-4::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-4::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-4::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-4 {
     width: 33.3333333333%;
     display: -webkit-inline-box;
@@ -621,25 +621,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-4::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-4::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-4::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-4::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-4::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-4::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-4 {
         width: 33.3333333333% !important;
@@ -648,26 +648,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-4::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-4::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-4::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-4::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-4::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-4::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-4 {
         width: 100%; } }
@@ -678,25 +678,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-4::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-4::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-4::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-4::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-4::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-4::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-4 {
         width: 33.3333333333% !important;
@@ -705,26 +705,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-4::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-4::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-4::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-4::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-4::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-4::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-4 {
         width: 100%; } }
@@ -743,25 +743,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-5::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-5::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-5::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-5::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-5::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-5::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-5 {
         width: 41.6666666667% !important;
@@ -770,26 +770,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-5::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-5::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-5::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-5::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-5::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-5::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-5 {
     width: 41.6666666667%;
     display: -webkit-inline-box;
@@ -797,25 +797,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-5::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-5::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-5::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-5::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-5::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-5::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-5 {
         width: 41.6666666667% !important;
@@ -824,26 +824,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-5::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-5::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-5::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-5::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-5::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-5::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-5 {
         width: 100%; } }
@@ -854,25 +854,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-5::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-5::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-5::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-5::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-5::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-5::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-5 {
         width: 41.6666666667% !important;
@@ -881,26 +881,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-5::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-5::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-5::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-5::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-5::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-5::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-5 {
         width: 100%; } }
@@ -919,25 +919,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-6::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-6::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-6::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-6::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-6::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-6::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-6 {
         width: 50% !important;
@@ -946,26 +946,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-6::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-6::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-6::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-6::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-6::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-6::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-6 {
     width: 50%;
     display: -webkit-inline-box;
@@ -973,25 +973,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-6::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-6::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-6::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-6::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-6::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-6::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-6 {
         width: 50% !important;
@@ -1000,26 +1000,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-6::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-6::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-6::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-6::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-6::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-6::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-6 {
         width: 100%; } }
@@ -1030,25 +1030,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-6::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-6::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-6::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-6::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-6::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-6::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-6 {
         width: 50% !important;
@@ -1057,26 +1057,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-6::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-6::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-6::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-6::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-6::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-6::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-6 {
         width: 100%; } }
@@ -1095,25 +1095,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-7::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-7::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-7::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-7::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-7::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-7::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-7 {
         width: 58.3333333333% !important;
@@ -1122,26 +1122,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-7::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-7::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-7::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-7::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-7::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-7::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-7 {
     width: 58.3333333333%;
     display: -webkit-inline-box;
@@ -1149,25 +1149,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-7::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-7::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-7::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-7::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-7::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-7::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-7 {
         width: 58.3333333333% !important;
@@ -1176,26 +1176,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-7::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-7::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-7::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-7::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-7::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-7::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-7 {
         width: 100%; } }
@@ -1206,25 +1206,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-7::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-7::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-7::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-7::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-7::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-7::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-7 {
         width: 58.3333333333% !important;
@@ -1233,26 +1233,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-7::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-7::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-7::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-7::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-7::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-7::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-7 {
         width: 100%; } }
@@ -1271,25 +1271,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-8::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-8::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-8::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-8::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-8::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-8::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-8 {
         width: 66.6666666667% !important;
@@ -1298,26 +1298,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-8::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-8::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-8::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-8::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-8::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-8::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-8 {
     width: 66.6666666667%;
     display: -webkit-inline-box;
@@ -1325,25 +1325,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-8::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-8::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-8::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-8::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-8::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-8::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-8 {
         width: 66.6666666667% !important;
@@ -1352,26 +1352,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-8::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-8::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-8::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-8::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-8::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-8::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-8 {
         width: 100%; } }
@@ -1382,25 +1382,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-8::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-8::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-8::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-8::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-8::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-8::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-8 {
         width: 66.6666666667% !important;
@@ -1409,26 +1409,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-8::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-8::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-8::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-8::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-8::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-8::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-8 {
         width: 100%; } }
@@ -1447,25 +1447,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-9::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-9::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-9::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-9::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-9::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-9::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-9 {
         width: 75% !important;
@@ -1474,26 +1474,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-9::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-9::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-9::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-9::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-9::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-9::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-9 {
     width: 75%;
     display: -webkit-inline-box;
@@ -1501,25 +1501,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-9::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-9::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-9::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-9::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-9::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-9::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-9 {
         width: 75% !important;
@@ -1528,26 +1528,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-9::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-9::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-9::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-9::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-9::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-9::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-9 {
         width: 100%; } }
@@ -1558,25 +1558,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-9::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-9::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-9::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-9::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-9::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-9::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-9 {
         width: 75% !important;
@@ -1585,26 +1585,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-9::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-9::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-9::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-9::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-9::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-9::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-9 {
         width: 100%; } }
@@ -1623,25 +1623,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-10::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-10::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-10::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-10::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-10::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-10::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-10 {
         width: 83.3333333333% !important;
@@ -1650,26 +1650,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-10::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-10::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-10::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-10::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-10::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-10::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-10 {
     width: 83.3333333333%;
     display: -webkit-inline-box;
@@ -1677,25 +1677,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-10::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-10::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-10::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-10::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-10::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-10::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-10 {
         width: 83.3333333333% !important;
@@ -1704,26 +1704,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-10::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-10::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-10::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-10::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-10::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-10::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-10 {
         width: 100%; } }
@@ -1734,25 +1734,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-10::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-10::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-10::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-10::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-10::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-10::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-10 {
         width: 83.3333333333% !important;
@@ -1761,26 +1761,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-10::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-10::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-10::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-10::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-10::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-10::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-10 {
         width: 100%; } }
@@ -1799,25 +1799,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-11::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-11::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-11::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-11::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-11::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-11::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-11 {
         width: 91.6666666667% !important;
@@ -1826,26 +1826,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-11::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-11::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-11::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-11::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-11::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-11::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-11 {
     width: 91.6666666667%;
     display: -webkit-inline-box;
@@ -1853,25 +1853,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-11::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-11::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-11::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-11::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-11::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-11::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-11 {
         width: 91.6666666667% !important;
@@ -1880,26 +1880,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-11::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-11::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-11::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-11::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-11::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-11::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-11 {
         width: 100%; } }
@@ -1910,25 +1910,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-11::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-11::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-11::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-11::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-11::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-11::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-11 {
         width: 91.6666666667% !important;
@@ -1937,26 +1937,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-11::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-11::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-11::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-11::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-11::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-11::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-11 {
         width: 100%; } }
@@ -1975,25 +1975,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-sm-12::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-12::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-12::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-sm-12::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-12::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-sm-12::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-sm-12 {
         width: 100% !important;
@@ -2002,26 +2002,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-sm-12::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-12::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-12::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (max-width: 768px) {
         .grid-sm-12::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-12::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) and (min-width: 992px) {
       .grid-sm-12::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
   .grid-md-12 {
     width: 100%;
     display: -webkit-inline-box;
@@ -2029,25 +2029,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-md-12::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-12::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-md-12::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-md-12::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-12::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-md-12::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
       .grid-md-12 {
         width: 100% !important;
@@ -2056,26 +2056,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-md-12::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-12::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-12::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-12::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-12::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 992px) {
       .grid-md-12::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 768px) {
       .grid-md-12 {
         width: 100%; } }
@@ -2086,25 +2086,25 @@ body {
     margin: 0 -4px 0 0;
     background-color: orange; }
     .grid-lg-12::before {
-      margin-left: 10px;
+      margin-left: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-12::before {
-          margin-left: 20px; } }
+          margin-left: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-12::before {
-          margin-left: 50px; } }
+          margin-left: 15px; } }
     .grid-lg-12::after {
-      margin-right: 10px;
+      margin-right: 15px;
       background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-12::after {
-          margin-right: 20px; } }
+          margin-right: 15px; } }
       @media (min-width: 992px) {
         .grid-lg-12::after {
-          margin-right: 50px; } }
+          margin-right: 15px; } }
     @media (min-width: 992px) {
       .grid-lg-12 {
         width: 100% !important;
@@ -2113,26 +2113,26 @@ body {
         margin: 0 -4px 0 0;
         background-color: orange; }
         .grid-lg-12::before {
-          margin-left: 10px;
+          margin-left: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-12::before {
-        margin-left: 20px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-12::before {
-        margin-left: 50px; } }
+        margin-left: 15px; } }
     @media (min-width: 992px) {
         .grid-lg-12::after {
-          margin-right: 10px;
+          margin-right: 15px;
           background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-12::after {
-        margin-right: 20px; } }
+        margin-right: 15px; } }
     @media (min-width: 992px) and (min-width: 992px) {
       .grid-lg-12::after {
-        margin-right: 50px; } }
+        margin-right: 15px; } }
     @media (max-width: 992px) {
       .grid-lg-12 {
         width: 100%; } }
