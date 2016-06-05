@@ -22,11 +22,33 @@
 @mixin grid-item($width, $important: false) {
      @if($important){
         width: $width * 100% !important;
-        display: inline-block !important;
+        display: inline-flex !important;
     }
     @else {
         width: $width * 100%;
-        display: inline-block;
+        display: inline-flex;
+    }
+    &::before {
+        margin-left: $grid-small-gutter;
+        @media(min-width: $grid-small) and (max-width: $grid-medium){
+            margin-left: $grid-medium-gutter;
+        }
+        @media(min-width: $grid-medium){
+            margin-left: $grid-large-gutter;
+        }
+        background-color: black;
+        content: ' ';
+    }
+    &::after {
+        margin-right: $grid-small-gutter;
+        @media(min-width: $grid-small) and (max-width: $grid-medium){
+            margin-right: $grid-medium-gutter;
+        }
+        @media(min-width: $grid-medium){
+            margin-right: $grid-large-gutter;
+        }
+        background-color: black;
+        content: ' ';
     }
     margin: 0 -4px 0 0;
     background-color: orange; // remove
@@ -49,7 +71,6 @@
                  @include grid-item($i/$grid-size, true);
             }
             @media(max-width: $grid-small) {
-                display: block;
                 width: 100%;
             }
         }
@@ -59,7 +80,6 @@
                  @include grid-item($i/$grid-size, true);
             }
             @media(max-width: $grid-medium) {
-                display: block;
                 width: 100%;
             }
         }
