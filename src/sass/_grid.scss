@@ -1,0 +1,58 @@
+body {
+
+}
+
+.container-fluid {
+    width: 100%;
+
+    background-color: red; // remove
+}
+
+.container {
+    margin: auto;
+    max-width: 100%;
+    padding: 0 $grid-small-margin;
+
+    @media(min-width: $grid-small) and (max-width: $grid-medium){
+        padding: 0 $grid-medium-margin;
+    }
+
+    @media(min-width: $grid-medium) and (max-width: $grid-large){
+        max-width: $grid-large - $grid-large-margin * 2;
+        padding: 0 $grid-large-margin;
+    }
+
+    @media(min-width: $grid-large)
+    {
+        padding: 0 $grid-large-margin;
+        max-width: $grid-large;
+    }
+
+    background-color: green; // remove
+}
+
+@mixin grid-item($width) {
+    width: $width * 100%;
+    display: inline-block;
+    margin: 0 -4px 0 0;
+
+    background-color: orange; // remove
+}
+
+.grid {
+    width: 100%;
+
+    @for $i from 1 through $grid-size {
+        &-sm-#{$i} {
+            @include grid-item($i/$grid-size);
+        }
+        &-md-#{$i} {
+            @include grid-item($i/$grid-size);
+        }
+        &-lg-#{$i} {
+            @include grid-item($i/$grid-size);
+        }
+    }
+
+    background-color: blue; // remove
+}
