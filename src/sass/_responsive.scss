@@ -1,40 +1,43 @@
 .hidden {
+    display: none;
     &-sm {
-        display: none;
+        display: block;
         @media(min-width: $grid-small) {
-            display: block;
+            display: none !important;
         }
     }
     &-md {
-        display: none;
-        @media(min-width: $grid-medium) {
-            display: block;
+        display: block;
+        @media(min-width: $grid-medium) and (max-width: $grid-large){
+            display: none !important;
         }
     }
     &-lg {
-        display: none;
+        display: block;
         @media(min-width: $grid-large) {
-            display: block;
+            display: none !important;
         }
     }
 }
+
 .visible {
+    display: block;
     &-sm {
-        display: block;
-        @media(min-width: $grid-small) {
-            display: none;
+        display: none;
+        @media(max-width: $grid-small) {
+            display: block !important;
         }
     }
     &-md {
-        display: block;
-        @media(min-width: $grid-medium) {
-            display: none;
+        display: none;
+        @media(min-width: $grid-small) and (max-width: $grid-medium){
+            display: block !important;
         }
     }
     &-lg {
-        display: block;
-        @media(min-width: $grid-large) {
-            display: none;
+        display: none;
+        @media(min-width: $grid-medium) {
+            display: block !important;
         }
     }
 }
