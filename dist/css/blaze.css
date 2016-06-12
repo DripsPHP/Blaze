@@ -1,4 +1,5 @@
 /* ===[ Screen ]=== */
+/* === [Debugging] === */
 body {
   margin: 0;
   padding: 0; }
@@ -7,14 +8,12 @@ body {
   outline: none; }
 
 .container-fluid {
-  width: 100%;
-  background-color: red; }
+  width: 100%; }
 
 .container {
   margin: auto;
   max-width: 100%;
-  padding: 0 0;
-  background-color: green; }
+  padding: 0 0; }
   @media (min-width: 768px) and (max-width: 992px) {
     .container {
       padding: 0 25px; } }
@@ -28,18 +27,15 @@ body {
       max-width: 1200px; } }
 
 .grid {
-  width: 100%;
-  background-color: blue; }
+  width: 100%; }
   .grid-sm-1 {
     vertical-align: top;
     width: 8.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-1::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-1::before {
@@ -50,7 +46,6 @@ body {
     .grid-sm-1::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-1::after {
@@ -63,12 +58,10 @@ body {
         vertical-align: top;
         width: 8.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-1::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-1::before {
@@ -80,7 +73,6 @@ body {
         .grid-sm-1::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-1::after {
@@ -92,12 +84,10 @@ body {
     vertical-align: top;
     width: 8.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-1::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-1::before {
@@ -108,7 +98,6 @@ body {
     .grid-md-1::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-1::after {
@@ -121,12 +110,10 @@ body {
         vertical-align: top;
         width: 8.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-1::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-1::before {
@@ -138,7 +125,6 @@ body {
         .grid-md-1::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-1::after {
@@ -153,12 +139,10 @@ body {
     vertical-align: top;
     width: 8.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-1::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-1::before {
@@ -169,7 +153,6 @@ body {
     .grid-lg-1::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-1::after {
@@ -182,12 +165,10 @@ body {
         vertical-align: top;
         width: 8.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-1::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-1::before {
@@ -199,7 +180,6 @@ body {
         .grid-lg-1::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-1::after {
@@ -222,12 +202,10 @@ body {
     vertical-align: top;
     width: 16.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-2::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-2::before {
@@ -238,7 +216,6 @@ body {
     .grid-sm-2::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-2::after {
@@ -251,12 +228,10 @@ body {
         vertical-align: top;
         width: 16.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-2::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-2::before {
@@ -268,7 +243,6 @@ body {
         .grid-sm-2::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-2::after {
@@ -280,12 +254,10 @@ body {
     vertical-align: top;
     width: 16.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-2::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-2::before {
@@ -296,7 +268,6 @@ body {
     .grid-md-2::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-2::after {
@@ -309,12 +280,10 @@ body {
         vertical-align: top;
         width: 16.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-2::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-2::before {
@@ -326,7 +295,6 @@ body {
         .grid-md-2::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-2::after {
@@ -341,12 +309,10 @@ body {
     vertical-align: top;
     width: 16.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-2::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-2::before {
@@ -357,7 +323,6 @@ body {
     .grid-lg-2::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-2::after {
@@ -370,12 +335,10 @@ body {
         vertical-align: top;
         width: 16.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-2::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-2::before {
@@ -387,7 +350,6 @@ body {
         .grid-lg-2::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-2::after {
@@ -410,12 +372,10 @@ body {
     vertical-align: top;
     width: 25%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-3::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-3::before {
@@ -426,7 +386,6 @@ body {
     .grid-sm-3::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-3::after {
@@ -439,12 +398,10 @@ body {
         vertical-align: top;
         width: 25% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-3::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-3::before {
@@ -456,7 +413,6 @@ body {
         .grid-sm-3::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-3::after {
@@ -468,12 +424,10 @@ body {
     vertical-align: top;
     width: 25%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-3::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-3::before {
@@ -484,7 +438,6 @@ body {
     .grid-md-3::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-3::after {
@@ -497,12 +450,10 @@ body {
         vertical-align: top;
         width: 25% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-3::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-3::before {
@@ -514,7 +465,6 @@ body {
         .grid-md-3::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-3::after {
@@ -529,12 +479,10 @@ body {
     vertical-align: top;
     width: 25%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-3::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-3::before {
@@ -545,7 +493,6 @@ body {
     .grid-lg-3::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-3::after {
@@ -558,12 +505,10 @@ body {
         vertical-align: top;
         width: 25% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-3::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-3::before {
@@ -575,7 +520,6 @@ body {
         .grid-lg-3::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-3::after {
@@ -598,12 +542,10 @@ body {
     vertical-align: top;
     width: 33.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-4::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-4::before {
@@ -614,7 +556,6 @@ body {
     .grid-sm-4::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-4::after {
@@ -627,12 +568,10 @@ body {
         vertical-align: top;
         width: 33.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-4::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-4::before {
@@ -644,7 +583,6 @@ body {
         .grid-sm-4::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-4::after {
@@ -656,12 +594,10 @@ body {
     vertical-align: top;
     width: 33.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-4::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-4::before {
@@ -672,7 +608,6 @@ body {
     .grid-md-4::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-4::after {
@@ -685,12 +620,10 @@ body {
         vertical-align: top;
         width: 33.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-4::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-4::before {
@@ -702,7 +635,6 @@ body {
         .grid-md-4::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-4::after {
@@ -717,12 +649,10 @@ body {
     vertical-align: top;
     width: 33.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-4::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-4::before {
@@ -733,7 +663,6 @@ body {
     .grid-lg-4::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-4::after {
@@ -746,12 +675,10 @@ body {
         vertical-align: top;
         width: 33.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-4::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-4::before {
@@ -763,7 +690,6 @@ body {
         .grid-lg-4::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-4::after {
@@ -786,12 +712,10 @@ body {
     vertical-align: top;
     width: 41.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-5::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-5::before {
@@ -802,7 +726,6 @@ body {
     .grid-sm-5::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-5::after {
@@ -815,12 +738,10 @@ body {
         vertical-align: top;
         width: 41.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-5::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-5::before {
@@ -832,7 +753,6 @@ body {
         .grid-sm-5::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-5::after {
@@ -844,12 +764,10 @@ body {
     vertical-align: top;
     width: 41.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-5::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-5::before {
@@ -860,7 +778,6 @@ body {
     .grid-md-5::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-5::after {
@@ -873,12 +790,10 @@ body {
         vertical-align: top;
         width: 41.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-5::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-5::before {
@@ -890,7 +805,6 @@ body {
         .grid-md-5::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-5::after {
@@ -905,12 +819,10 @@ body {
     vertical-align: top;
     width: 41.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-5::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-5::before {
@@ -921,7 +833,6 @@ body {
     .grid-lg-5::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-5::after {
@@ -934,12 +845,10 @@ body {
         vertical-align: top;
         width: 41.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-5::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-5::before {
@@ -951,7 +860,6 @@ body {
         .grid-lg-5::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-5::after {
@@ -974,12 +882,10 @@ body {
     vertical-align: top;
     width: 50%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-6::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-6::before {
@@ -990,7 +896,6 @@ body {
     .grid-sm-6::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-6::after {
@@ -1003,12 +908,10 @@ body {
         vertical-align: top;
         width: 50% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-6::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-6::before {
@@ -1020,7 +923,6 @@ body {
         .grid-sm-6::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-6::after {
@@ -1032,12 +934,10 @@ body {
     vertical-align: top;
     width: 50%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-6::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-6::before {
@@ -1048,7 +948,6 @@ body {
     .grid-md-6::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-6::after {
@@ -1061,12 +960,10 @@ body {
         vertical-align: top;
         width: 50% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-6::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-6::before {
@@ -1078,7 +975,6 @@ body {
         .grid-md-6::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-6::after {
@@ -1093,12 +989,10 @@ body {
     vertical-align: top;
     width: 50%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-6::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-6::before {
@@ -1109,7 +1003,6 @@ body {
     .grid-lg-6::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-6::after {
@@ -1122,12 +1015,10 @@ body {
         vertical-align: top;
         width: 50% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-6::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-6::before {
@@ -1139,7 +1030,6 @@ body {
         .grid-lg-6::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-6::after {
@@ -1162,12 +1052,10 @@ body {
     vertical-align: top;
     width: 58.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-7::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-7::before {
@@ -1178,7 +1066,6 @@ body {
     .grid-sm-7::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-7::after {
@@ -1191,12 +1078,10 @@ body {
         vertical-align: top;
         width: 58.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-7::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-7::before {
@@ -1208,7 +1093,6 @@ body {
         .grid-sm-7::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-7::after {
@@ -1220,12 +1104,10 @@ body {
     vertical-align: top;
     width: 58.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-7::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-7::before {
@@ -1236,7 +1118,6 @@ body {
     .grid-md-7::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-7::after {
@@ -1249,12 +1130,10 @@ body {
         vertical-align: top;
         width: 58.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-7::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-7::before {
@@ -1266,7 +1145,6 @@ body {
         .grid-md-7::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-7::after {
@@ -1281,12 +1159,10 @@ body {
     vertical-align: top;
     width: 58.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-7::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-7::before {
@@ -1297,7 +1173,6 @@ body {
     .grid-lg-7::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-7::after {
@@ -1310,12 +1185,10 @@ body {
         vertical-align: top;
         width: 58.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-7::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-7::before {
@@ -1327,7 +1200,6 @@ body {
         .grid-lg-7::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-7::after {
@@ -1350,12 +1222,10 @@ body {
     vertical-align: top;
     width: 66.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-8::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-8::before {
@@ -1366,7 +1236,6 @@ body {
     .grid-sm-8::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-8::after {
@@ -1379,12 +1248,10 @@ body {
         vertical-align: top;
         width: 66.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-8::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-8::before {
@@ -1396,7 +1263,6 @@ body {
         .grid-sm-8::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-8::after {
@@ -1408,12 +1274,10 @@ body {
     vertical-align: top;
     width: 66.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-8::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-8::before {
@@ -1424,7 +1288,6 @@ body {
     .grid-md-8::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-8::after {
@@ -1437,12 +1300,10 @@ body {
         vertical-align: top;
         width: 66.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-8::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-8::before {
@@ -1454,7 +1315,6 @@ body {
         .grid-md-8::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-8::after {
@@ -1469,12 +1329,10 @@ body {
     vertical-align: top;
     width: 66.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-8::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-8::before {
@@ -1485,7 +1343,6 @@ body {
     .grid-lg-8::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-8::after {
@@ -1498,12 +1355,10 @@ body {
         vertical-align: top;
         width: 66.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-8::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-8::before {
@@ -1515,7 +1370,6 @@ body {
         .grid-lg-8::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-8::after {
@@ -1538,12 +1392,10 @@ body {
     vertical-align: top;
     width: 75%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-9::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-9::before {
@@ -1554,7 +1406,6 @@ body {
     .grid-sm-9::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-9::after {
@@ -1567,12 +1418,10 @@ body {
         vertical-align: top;
         width: 75% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-9::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-9::before {
@@ -1584,7 +1433,6 @@ body {
         .grid-sm-9::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-9::after {
@@ -1596,12 +1444,10 @@ body {
     vertical-align: top;
     width: 75%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-9::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-9::before {
@@ -1612,7 +1458,6 @@ body {
     .grid-md-9::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-9::after {
@@ -1625,12 +1470,10 @@ body {
         vertical-align: top;
         width: 75% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-9::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-9::before {
@@ -1642,7 +1485,6 @@ body {
         .grid-md-9::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-9::after {
@@ -1657,12 +1499,10 @@ body {
     vertical-align: top;
     width: 75%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-9::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-9::before {
@@ -1673,7 +1513,6 @@ body {
     .grid-lg-9::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-9::after {
@@ -1686,12 +1525,10 @@ body {
         vertical-align: top;
         width: 75% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-9::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-9::before {
@@ -1703,7 +1540,6 @@ body {
         .grid-lg-9::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-9::after {
@@ -1726,12 +1562,10 @@ body {
     vertical-align: top;
     width: 83.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-10::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-10::before {
@@ -1742,7 +1576,6 @@ body {
     .grid-sm-10::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-10::after {
@@ -1755,12 +1588,10 @@ body {
         vertical-align: top;
         width: 83.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-10::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-10::before {
@@ -1772,7 +1603,6 @@ body {
         .grid-sm-10::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-10::after {
@@ -1784,12 +1614,10 @@ body {
     vertical-align: top;
     width: 83.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-10::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-10::before {
@@ -1800,7 +1628,6 @@ body {
     .grid-md-10::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-10::after {
@@ -1813,12 +1640,10 @@ body {
         vertical-align: top;
         width: 83.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-10::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-10::before {
@@ -1830,7 +1655,6 @@ body {
         .grid-md-10::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-10::after {
@@ -1845,12 +1669,10 @@ body {
     vertical-align: top;
     width: 83.3333333333%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-10::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-10::before {
@@ -1861,7 +1683,6 @@ body {
     .grid-lg-10::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-10::after {
@@ -1874,12 +1695,10 @@ body {
         vertical-align: top;
         width: 83.3333333333% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-10::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-10::before {
@@ -1891,7 +1710,6 @@ body {
         .grid-lg-10::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-10::after {
@@ -1914,12 +1732,10 @@ body {
     vertical-align: top;
     width: 91.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-11::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-11::before {
@@ -1930,7 +1746,6 @@ body {
     .grid-sm-11::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-11::after {
@@ -1943,12 +1758,10 @@ body {
         vertical-align: top;
         width: 91.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-11::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-11::before {
@@ -1960,7 +1773,6 @@ body {
         .grid-sm-11::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-11::after {
@@ -1972,12 +1784,10 @@ body {
     vertical-align: top;
     width: 91.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-11::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-11::before {
@@ -1988,7 +1798,6 @@ body {
     .grid-md-11::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-11::after {
@@ -2001,12 +1810,10 @@ body {
         vertical-align: top;
         width: 91.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-11::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-11::before {
@@ -2018,7 +1825,6 @@ body {
         .grid-md-11::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-11::after {
@@ -2033,12 +1839,10 @@ body {
     vertical-align: top;
     width: 91.6666666667%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-11::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-11::before {
@@ -2049,7 +1853,6 @@ body {
     .grid-lg-11::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-11::after {
@@ -2062,12 +1865,10 @@ body {
         vertical-align: top;
         width: 91.6666666667% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-11::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-11::before {
@@ -2079,7 +1880,6 @@ body {
         .grid-lg-11::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-11::after {
@@ -2102,12 +1902,10 @@ body {
     vertical-align: top;
     width: 100%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-sm-12::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-12::before {
@@ -2118,7 +1916,6 @@ body {
     .grid-sm-12::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-sm-12::after {
@@ -2131,12 +1928,10 @@ body {
         vertical-align: top;
         width: 100% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-sm-12::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-12::before {
@@ -2148,7 +1943,6 @@ body {
         .grid-sm-12::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (max-width: 768px) and (min-width: 768px) and (max-width: 992px) {
       .grid-sm-12::after {
@@ -2160,12 +1954,10 @@ body {
     vertical-align: top;
     width: 100%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-md-12::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-12::before {
@@ -2176,7 +1968,6 @@ body {
     .grid-md-12::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-md-12::after {
@@ -2189,12 +1980,10 @@ body {
         vertical-align: top;
         width: 100% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-md-12::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-12::before {
@@ -2206,7 +1995,6 @@ body {
         .grid-md-12::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 768px) and (max-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-md-12::after {
@@ -2221,12 +2009,10 @@ body {
     vertical-align: top;
     width: 100%;
     display: inline-table;
-    margin: 0 -4px 0 0;
-    background-color: orange; }
+    margin: 0 -4px 0 0; }
     .grid-lg-12::before {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-12::before {
@@ -2237,7 +2023,6 @@ body {
     .grid-lg-12::after {
       display: table-cell;
       width: 15px;
-      background-color: black;
       content: ' '; }
       @media (min-width: 768px) and (max-width: 992px) {
         .grid-lg-12::after {
@@ -2250,12 +2035,10 @@ body {
         vertical-align: top;
         width: 100% !important;
         display: inline-table !important;
-        margin: 0 -4px 0 0;
-        background-color: orange; }
+        margin: 0 -4px 0 0; }
         .grid-lg-12::before {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-12::before {
@@ -2267,7 +2050,6 @@ body {
         .grid-lg-12::after {
           display: table-cell;
           width: 15px;
-          background-color: black;
           content: ' '; } }
     @media (min-width: 992px) and (min-width: 768px) and (max-width: 992px) {
       .grid-lg-12::after {

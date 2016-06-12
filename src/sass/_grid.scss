@@ -1,6 +1,8 @@
 .container-fluid {
     width: 100%;
-    background-color: red; // remove
+    @if($debug){
+        background-color: red; // remove
+    }
 }
 .container {
     margin: auto;
@@ -17,7 +19,9 @@
         padding: 0 $grid-large-margin;
         max-width: $grid-large;
     }
-    background-color: green; // remove
+    @if($debug){
+        background-color: green; // remove
+    }
 }
 @mixin grid-item($width, $important: false) {
     vertical-align: top;
@@ -38,7 +42,9 @@
         @media(min-width: $grid-medium){
             width: $grid-large-gutter;
         }
-        background-color: black;
+        @if($debug){
+            background-color: black;
+        }
         content: ' ';
     }
     &::after {
@@ -50,11 +56,15 @@
         @media(min-width: $grid-medium){
             width: $grid-large-gutter;
         }
-        background-color: black;
+        @if($debug){
+            background-color: black;
+        }
         content: ' ';
     }
     margin: 0 -4px 0 0;
-    background-color: orange; // remove
+    @if($debug){
+        background-color: orange; // remove
+    }
 }
 @mixin grid-item-offset($offset) {
     margin-left: $offset * 100% !important;
@@ -100,5 +110,7 @@
             }
         }
     }
-    background-color: blue; // remove
+    @if($debug){
+        background-color: blue; // remove
+    }
 }
